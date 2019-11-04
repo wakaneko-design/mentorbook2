@@ -1,5 +1,5 @@
 //
-//  mentor.swift
+//  Mentor.swift
 //  mentorbook2
 //
 //  Created by Yuto Wakabayashi on 2019/10/26.

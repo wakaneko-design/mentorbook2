@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     var mentorArray: [Mentor] = []
     
     
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         mentorArray.append(Mentor(name: "たいてぃ", imageName: "taithi.jpg", course: "WebS,WebD"))
         setUI()
     }
-
+    
     func setUI(){
         imageView.image = mentorArray[index].getImage()
         nameLabel.text = mentorArray[index].name
@@ -41,12 +41,26 @@ class ViewController: UIViewController {
     
     
     @IBAction func mae() {
+        if index == 0 {
+            index = 2
+        }else if index == 1 {
+            index = index - 1
+        }else if index == 2 {
         index = index - 1
+        }
         setUI()
     }
     
+    
+    
     @IBAction func ushiro() {
-        index = index + 1
+        if index == 0 {
+            index = index + 1
+        }else if index == 1 {
+            index = index + 1
+        }else if index == 2 {
+            index = 0
+        }
         setUI()
     }
     

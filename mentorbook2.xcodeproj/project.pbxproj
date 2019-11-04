@@ -15,8 +15,8 @@
 		7E3C848A23641AAE005849BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C848823641AAE005849BE /* LaunchScreen.storyboard */; };
 		7E3C849523641B29005849BE /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C849223641B29005849BE /* ryo.jpg */; };
 		7E3C849623641B29005849BE /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C849323641B29005849BE /* nagata.jpg */; };
-		7E3C849723641B29005849BE /* taithi.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C849423641B29005849BE /* taithi.JPG */; };
-		7E3C849923641DE6005849BE /* mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C849823641DE6005849BE /* mentor.swift */; };
+		7E3C849723641B29005849BE /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C849423641B29005849BE /* taithi.jpg */; };
+		7E3C849923641DE6005849BE /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C849823641DE6005849BE /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +30,8 @@
 		7E3C848B23641AAE005849BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E3C849223641B29005849BE /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
 		7E3C849323641B29005849BE /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
-		7E3C849423641B29005849BE /* taithi.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.JPG; sourceTree = "<group>"; };
-		7E3C849823641DE6005849BE /* mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentor.swift; sourceTree = "<group>"; };
+		7E3C849423641B29005849BE /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		7E3C849823641DE6005849BE /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 				7E3C848623641AAE005849BE /* Assets.xcassets */,
 				7E3C848823641AAE005849BE /* LaunchScreen.storyboard */,
 				7E3C848B23641AAE005849BE /* Info.plist */,
-				7E3C849823641DE6005849BE /* mentor.swift */,
+				7E3C849823641DE6005849BE /* Mentor.swift */,
 			);
 			path = mentorbook2;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 			children = (
 				7E3C849223641B29005849BE /* ryo.jpg */,
 				7E3C849323641B29005849BE /* nagata.jpg */,
-				7E3C849423641B29005849BE /* taithi.JPG */,
+				7E3C849423641B29005849BE /* taithi.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			files = (
 				7E3C849523641B29005849BE /* ryo.jpg in Resources */,
 				7E3C849623641B29005849BE /* nagata.jpg in Resources */,
-				7E3C849723641B29005849BE /* taithi.JPG in Resources */,
+				7E3C849723641B29005849BE /* taithi.jpg in Resources */,
 				7E3C848A23641AAE005849BE /* LaunchScreen.storyboard in Resources */,
 				7E3C848723641AAE005849BE /* Assets.xcassets in Resources */,
 				7E3C848523641AAC005849BE /* Main.storyboard in Resources */,
@@ -161,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3C849923641DE6005849BE /* mentor.swift in Sources */,
+				7E3C849923641DE6005849BE /* Mentor.swift in Sources */,
 				7E3C848223641AAC005849BE /* ViewController.swift in Sources */,
 				7E3C847E23641AAC005849BE /* AppDelegate.swift in Sources */,
 				7E3C848023641AAC005849BE /* SceneDelegate.swift in Sources */,
